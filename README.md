@@ -7,7 +7,7 @@ So the default naming scheme of the generated icons may be weird.
 With that said. It is easy to change. Just change some string literals at the end of iconGen.py file.
 
 ## Functionality
-Generate a series of icons with different resolutions with a image provided.
+Generate a series of icons in different resolutions with a image provided.
 
 ![usecase.png](usecase.png)
 
