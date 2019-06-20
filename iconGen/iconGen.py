@@ -226,7 +226,6 @@ def main():
             "crop the image " % (filename, img.shape[0], img.shape[1])
         )
         area_selected = True
-        cropped_img = img
         min_x, min_y = 0, 0
         max_x, max_y = img.shape[0], img.shape[1]
 

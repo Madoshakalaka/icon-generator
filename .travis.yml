@@ -20,6 +20,7 @@ jobs:
     - python: "3.5"
 
     - stage: deploy
+      before_install: "" # don't do any thing
       script: "" # don't do any test
       deploy:
         provider: pypi
