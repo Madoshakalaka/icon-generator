@@ -20,7 +20,7 @@ The GUI features polite and completely interactive prompts and is straightforwar
 
 ## How to Use
 
-support python 3.5 +
+support python 3.5 3.6 3.7 and most possibly future versions
 
 `pip install iconGen`
 
