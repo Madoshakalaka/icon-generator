@@ -26,8 +26,8 @@ support python 3.5 3.6 3.7 and most possibly future versions
 
 It should have command line executable entry point by default
 
-- `iconGen thonk.png` for an interactive session with GUI
+- `$ iconGen thonk.png` for an interactive session with GUI
 
-- `iconGen --full square.png` for icon generation without GUI
+- `$ iconGen --full square.png` for icon generation without GUI
 
-- `iconGen -h` for more help such as customizable output directory
+- `$ iconGen -h` for more help such as customizable output directory
