@@ -12,7 +12,7 @@ ONE_POINT = 1
 TWO_POINT = 2
 
 STATE = NO_POINT
-POINTS = [0, 0, 0, 0]  # x_min x_max y_min y_max
+POINTS = [0, 0, 0, 0]  # x_min, x_max, y_min, y_max
 
 
 def mouse_callback(event, x, y, flags, img):
