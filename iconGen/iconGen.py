@@ -227,27 +227,33 @@ def main():
         )
         area_selected = True
         cropped_img = img
+        min_x, min_y = 0, 0
+        max_x, max_y = img.shape[0], img.shape[1]
 
     if area_selected:
 
-        if not isdir(output_directory):
-            mkdir(output_directory)
-            print("Generating icons to new directory %s" % output_directory)
-        else:
-            print("Generating icons to existing directory %s" % output_directory)
-        for size in (16, 19, 38, 48, 128):
-            cropped_img = cv2.resize(img[min_y:max_y, min_x:max_x], (size, size))
-            cv2.imwrite(
-                path.join(output_directory, "to_" + str(size) + ".png"), cropped_img
-            )
-
-            if size == 19 or size == 38:
-                cv2.imwrite(
-                    path.join(output_directory, "to_bw_" + str(size) + ".png"),
-                    cv2.cvtColor(cropped_img, cv2.COLOR_BGR2GRAY),
-                )
+        write_icons(img, max_x, max_y, min_x, min_y, output_directory)
 
         cv2.destroyAllWindows()
+
+
+def write_icons(img, max_x, max_y, min_x, min_y, output_directory):
+    if not isdir(output_directory):
+        mkdir(output_directory)
+        print("Generating icons to new directory %s" % output_directory)
+    else:
+        print("Generating icons to existing directory %s" % output_directory)
+    for size in (16, 19, 38, 48, 128):
+        cropped_img = cv2.resize(img[min_y:max_y, min_x:max_x], (size, size))
+        cv2.imwrite(
+            path.join(output_directory, "to_" + str(size) + ".png"), cropped_img
+        )
+
+        if size == 19 or size == 38:
+            cv2.imwrite(
+                path.join(output_directory, "to_bw_" + str(size) + ".png"),
+                cv2.cvtColor(cropped_img, cv2.COLOR_BGR2GRAY),
+            )
 
 
 if __name__ == "__main__":
