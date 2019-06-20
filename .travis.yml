@@ -21,7 +21,7 @@ jobs:
     - python: "3.5"
 
     - stage: deploy
-      script: "" # don't do tests
+      script: "" # don't do any test
       deploy:
         provider: pypi
         user: Madoshakalaka
