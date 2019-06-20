@@ -1,1 +1,1 @@
-from iconGen.iconGen import main as generate
+from iconGen import iconGen
