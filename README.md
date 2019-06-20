@@ -9,13 +9,13 @@ With that said. It is easy to change. Just change some literals at the end of ic
 ## Functionality
 Generate a series of icons in different resolutions with a image provided.
 
-![usecase.png](https://github.com/Madoshakalaka/icon-generator/blob/master/icon_generator/readme_assets/usecase.png)
+![usecase.png](https://raw.githubusercontent.com/Madoshakalaka/icon-generator/master/icon_generator/readme_assets/usecase.png)
 
 The user is able to either interactively select a region from the image with GUI, OR just use some square picture without GUI.
 
 The GUI features polite and completely interactive prompts and is straightforward to use.
 
-![easy2use.png](icon_generator/readme_assets/easy2use.png)
+![easy2use.png](https://raw.githubusercontent.com/Madoshakalaka/icon-generator/master/icon_generator/readme_assets/easy2use.png)
 
 ## How to Use
 
