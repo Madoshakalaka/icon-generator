@@ -121,7 +121,6 @@ def main():
         imshow("Area Selection", img)
         cv2.setMouseCallback("Area Selection", mouse_callback, img)
 
-        cropped_img = None
         try:
             while cv2.getWindowProperty("Area Selection", cv2.WND_PROP_VISIBLE) == 1:
 
