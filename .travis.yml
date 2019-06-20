@@ -13,6 +13,7 @@ stages:
 
 jobs:
   include:
+
     - python: "3.7"
 
     - python: "3.6"
@@ -26,3 +27,5 @@ jobs:
         user: Madoshakalaka
         password:
           secure: T7xkS7mh2MwaIpNxsVOXXIz43COAAQJcl00n+m78KO6XA9YnMOKLsyZ/9AmBkMqI4DfJQeTREEHNA2CDGSC5yeYY8Oy4x9Vpci9wZPVOo38Nxw8X8vKVTZsKui/K1IkeNCZG76ch0QVe30tBIeT0pgd0OzBv4Ufn4AOgfwcHSwbYATy9AXClgGrctu3qPC3LG3hJezV48RNCmSpYMDS2cMICX39UJ2VLKT4RBdf9MD2nDsgigdAQMiFEf6cwXc/uogsbkegbIZAjgD2lJQfCSVl+vtRY4JQFQuULcYvLOKaAzlbMfZABxHgoTtPv4lij4KTfIEugFJUZ7L3A+gK4YOSfbTrDnFe+U6dYhfqewhZFxmeKehRQhEXoX3LeX9m9Hu7e5iA0hvlGAKIlI2KN7lkSZahQ4SuJGBUaYJA0yzfdtCbZenL8tIbMvP5BZhCdqq0xZLGXWn/0A3wsuNb6JXImiKvYk69FDok89fuyqI8e76Bo17ZZ3S5Pyxfeejea1Tp3zR80d3CLIlGtOUu6xFvRWj6vYaHDV4L821m6Wc6Pcad3fVs4l6ovZ94eyzAWs0tjmCc5iEcCRJ60JNsRwig4FK4t9m7Pyl7gSyjforl+4E0tggaua2Nn2o7oAVVC5AdJrLhR/9i30lNR8NB56/GopklhjRBd7UMwJuLjtrM=
+        on:
+          tags: true
