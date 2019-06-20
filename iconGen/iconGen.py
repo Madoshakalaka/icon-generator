@@ -242,6 +242,11 @@ def write_icons(img, max_x, max_y, min_x, min_y, output_directory):
         print("Generating icons to new directory %s" % output_directory)
     else:
         print("Generating icons to existing directory %s" % output_directory)
+
+    cv2.imwrite(
+        path.join(output_directory, "original_size.png"), img[min_y:max_y, min_x:max_x]
+    )
+
     for size in (16, 19, 38, 48, 128):
         cropped_img = cv2.resize(img[min_y:max_y, min_x:max_x], (size, size))
         cv2.imwrite(
