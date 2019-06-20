@@ -1,11 +1,8 @@
 import os
 import shutil
 import subprocess
-import sys
 import unittest
 import cv2
-
-sys.path.append("../iconGen")
 from iconGen import iconGen
 
 
