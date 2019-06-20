@@ -1,4 +1,5 @@
 # Icon Generator
+![travis-badge](https://travis-ci.org/Madoshakalaka/icon-generator.svg?branch=master)
 
 Note: It's a basically a general purpose icon generator but
 It's originally a tool I wrote for google chrome extension in a specific project.
@@ -9,13 +10,13 @@ With that said. It is easy to change. Just change some literals at the end of ic
 ## Functionality
 Generate a series of icons in different resolutions with a image provided.
 
-![usecase.png](https://raw.githubusercontent.com/Madoshakalaka/iconGen/master/icon_generator/readme_assets/usecase.png)
+![usecase.png](https://raw.githubusercontent.com/Madoshakalaka/iconGen/master/iconGen/readme_assets/usecase.png)
 
 The user is able to either interactively select a region from the image with GUI, OR just use some square picture without GUI.
 
 The GUI features polite and completely interactive prompts and is straightforward to use.
 
-![easy2use.png](https://raw.githubusercontent.com/Madoshakalaka/iconGen/master/icon_generator/readme_assets/easy2use.png)
+![easy2use.png](https://raw.githubusercontent.com/Madoshakalaka/iconGen/master/iconGen/readme_assets/easy2use.png)
 
 ## How to Use
 
