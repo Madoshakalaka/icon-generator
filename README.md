@@ -31,3 +31,7 @@ It should have command line executable entry point by default
 - `$ iconGen --full square.png` for icon generation without GUI
 
 - `$ iconGen -h` for more help such as customizable output directory
+
+in case the command does not work (you are using stupid windows or something). Use the package entry:
+
+`> python -m iconGen`
